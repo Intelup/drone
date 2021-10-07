@@ -35,6 +35,11 @@ steps:
     region: us-east-1
     registry: 335031838757.dkr.ecr.us-east-1.amazonaws.com
     repo: '335031838757.dkr.ecr.us-east-1.amazonaws.com/${DRONE_REPO_NAME}'
+    tags:
+      - latest
+      - 2.4.0
+      - 2.4
+      - 2
   when:
     status:
       - success
