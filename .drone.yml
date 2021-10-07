@@ -30,6 +30,7 @@ steps:
       from_secret: ecr_access_key
     secret_key:
       from_secret: ecr_secret_key
+    dockerfile: docker/Dockerfile.server.linux.amd64
     file: Dockerfile
     region: us-east-1
     registry: 335031838757.dkr.ecr.us-east-1.amazonaws.com
