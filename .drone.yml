@@ -24,7 +24,7 @@ steps:
     GOOS: linux
 
 - name: publish
-  image: plugins/ecr:17.05
+  image: plugins/ecr:20.14
   settings:
     access_key:
       from_secret: ecr_access_key
